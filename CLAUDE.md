@@ -54,6 +54,13 @@
 - 明確な成功基準があれば自律的にループする
 - 曖昧な基準（「動くようにして」）は都度ユーザーに確認する
 
+## Plan / Spec の書き出し
+
+- 実装計画（plan）は `~/Documents/Obsidian/Vault/Plans/` に Markdown で作成する
+- 仕様書（spec）は `~/Documents/Obsidian/Vault/Specs/` に Markdown で作成する
+- ファイル名は内容がわかる日本語名にする（例: `認証リファクタ計画.md`）
+- カレントディレクトリやプロジェクト内に plan/spec ファイルを作らない
+
 ## Git 規約
 
 - Conventional Commits 形式（`feat:`, `fix:`, `docs:` 等）、本文は日本語
