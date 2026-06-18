@@ -22,7 +22,7 @@ Claude Code 用のグローバル `CLAUDE.md` テンプレート。
 
 ```bash
 # グローバルに適用（全プロジェクト共通）
-cp CLAUDE.md ~/CLAUDE.md
+cp CLAUDE.md ~/.claude/CLAUDE.md
 
 # プロジェクト固有の設定がある場合は末尾に追記するか、
 # プロジェクトルートに別の CLAUDE.md を置く
