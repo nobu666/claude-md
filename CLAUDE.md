@@ -48,6 +48,8 @@
 自分の変更で生じた不要物の処理:
 - 自分の変更で不要になったインポート・変数・関数 → 削除する
 - 元から存在していたデッドコード → 依頼されない限り削除しない
+
+レビュー:
 - 小さい変更でなければ、実装したら Subagent でレビューせよ（可能であれば複数の観点で）
 
 ### 【MUST GLOBAL】4. ゴール駆動の実行
@@ -60,7 +62,7 @@
 - 明確な成功基準があれば自律的にループする
 - 曖昧な基準（「動くようにして」）は都度ユーザーに確認する
 
-## 【SHOULD】5. Plan / Spec の書き出し
+## 【SHOULD】Plan / Spec の書き出し
 
 - 小さい変更であれば必ずしも必要ない
 - 実装計画（plan）は `~/Documents/Obsidian/Vault/Plans/` に Markdown で作成する
@@ -69,12 +71,12 @@
 - カレントディレクトリやプロジェクト内に plan/spec ファイルを作らない
 - 小さい変更でなければ、作成したら Subagent でレビューせよ（可能であれば複数の観点で）
 
-## 【SHOULD】6. CLAUDE.md の同期
+## 【SHOULD】CLAUDE.md の同期
 
 - このファイル (`~/.claude/CLAUDE.md`) を更新したら、`~/repos/claude-md/CLAUDE.md` にも同じ変更を反映してコミット・プッシュすること
 - ただしスコープ・フック等のローカル固有セクションはリポジトリ版には含めない
 
-## 【SHOULD】7. Git 規約
+## 【SHOULD】Git 規約
 
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) 形式（`feat:`, `fix:`, `docs:` 等）、本文は日本語
 - 確認なしに自動コミット・自動 push しない
