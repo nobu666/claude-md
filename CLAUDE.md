@@ -2,7 +2,7 @@
 
 このファイルは、Claude Code がこのディレクトリで作業する際のガイダンスを提供する。
 
-本文書の【MUST】【SHOULD】【MAY】は、RFC 2119に準拠：
+本文書の【MUST】【SHOULD】【MAY】は、[RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119)に準拠：
 - 【MUST GLOBAL】：MUSTの上位概念。プロジェクトごとのCLAUDE.mdより優先される
 - 【MUST】: 絶対的要求事項。例外なく従う必要がある
 - 【SHOULD】: 強い推奨事項。特別な理由がない限り従う
@@ -60,7 +60,7 @@
 - 明確な成功基準があれば自律的にループする
 - 曖昧な基準（「動くようにして」）は都度ユーザーに確認する
 
-## 【SHOULD】Plan / Spec の書き出し
+## 【SHOULD】5. Plan / Spec の書き出し
 
 - 小さい変更であれば必ずしも必要ない
 - 実装計画（plan）は `~/Documents/Obsidian/Vault/Plans/` に Markdown で作成する
@@ -68,12 +68,12 @@
 - ファイル名は内容がわかる日本語名にする（例: `認証リファクタ計画.md`）
 - カレントディレクトリやプロジェクト内に plan/spec ファイルを作らない
 
-## CLAUDE.md の同期
+## 【SHOULD】6. CLAUDE.md の同期
 
 - このファイル (`~/.claude/CLAUDE.md`) を更新したら、`~/repos/claude-md/CLAUDE.md` にも同じ変更を反映してコミット・プッシュすること
 - ただしスコープ・フック等のローカル固有セクションはリポジトリ版には含めない
 
-## 【SHOULD】Git 規約
+## 【SHOULD】7. Git 規約
 
-- Conventional Commits 形式（`feat:`, `fix:`, `docs:` 等）、本文は日本語
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) 形式（`feat:`, `fix:`, `docs:` 等）、本文は日本語
 - 確認なしに自動コミット・自動 push しない
