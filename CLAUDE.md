@@ -73,8 +73,8 @@
 
 ## 【SHOULD】CLAUDE.md の同期
 
-- このファイル (`~/.claude/CLAUDE.md`) を更新したら、`~/repos/claude-md/CLAUDE.md` にも同じ変更を反映してコミット・プッシュすること
-- ただしスコープ・フック等のローカル固有セクションはリポジトリ版には含めない
+- `~/.claude/CLAUDE.md` は `~/repos/claude-md/CLAUDE.md` へのシンボリックリンク
+- ローカル固有セクション（スコープ・フック等）はプロジェクト別の CLAUDE.md に分離すること
 
 ## 【SHOULD】Git 規約
 
